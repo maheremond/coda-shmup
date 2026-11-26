@@ -22,10 +22,6 @@ git go 09
 - [docs/](docs/) — plan de cours jour par jour, outline des slides, présentation « coder avec un agent IA », review du matériel
 - [slides/](slides/) — slides des 3 jours de cours (Slidev, voir [slides/README.md](slides/README.md))
 
-## Configuration du nouvel ennemi
-
-Le nouvel ennemi est configuré dans `public/assets/Data/sinusoidalEnemy.json`. Les intervalles d'apparition et de tir sont en millisecondes, la vitesse verticale en pixels par milliseconde, l'amplitude en pixels et la fréquence en cycles par seconde. `bulletCount` et `angleDegrees` règlent le tir en éventail; un angle de `360` répartit les projectiles sur un cercle complet.
-
 ## Credits
 - [Phaser](https://phaser.io/) for the game engine
 - [Kenney](https://kenney.nl/) for the assets (CC0 license — https://kenney.nl/support)
